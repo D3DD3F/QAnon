@@ -1,6 +1,7 @@
-table { 
+
+td { 
     height: 100%;
-    overflow-x: auto;
+
     }
 
 table, th, td {
