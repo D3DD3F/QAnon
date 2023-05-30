@@ -1,0 +1,25 @@
+body { 
+
+    height: 100%;
+    overflow-x: auto
+    }
+
+table, th, td {
+    table-layout: auto;
+    text-align: justify;
+    border: 1px solid black;
+}
+
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+tr:hover {
+    background-color: #f5f5f548
+}
+  
+#basic-btn tr td{
+    white-space: pre-wrap;
+}
