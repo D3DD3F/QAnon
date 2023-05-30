@@ -1,29 +1,27 @@
-
-td { 
-    height: 100%;
-
-    }
+td {
+  height: 100%;
+}
 
 table {
-
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-
-table, th, td {
-    table-layout: auto;
-    text-align: justify;
-    border: 1px solid black;
+table,
+th,
+td {
+  table-layout: auto;
+  text-align: justify;
+  border: 1px solid black;
 }
 
-
-th, td {
-    padding: 10px;
-    text-align: left;
-    max-width: 70vw;
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  max-width: 60vw;
 }
 
 tr:hover {
-    background-color: #f5f5f548
+  background-color: #f5f5f548;
 }
