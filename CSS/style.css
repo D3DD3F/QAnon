@@ -4,6 +4,13 @@ td {
 
     }
 
+table {
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 table, th, td {
     table-layout: auto;
     text-align: justify;
@@ -14,6 +21,7 @@ table, th, td {
 th, td {
     padding: 10px;
     text-align: left;
+    max-width: 70vw;
 }
 
 tr:hover {
