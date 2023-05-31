@@ -1,0 +1,103 @@
+main figure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+main figure img {
+  width: 350px;
+  height: 350px;
+  border-radius: 300px;
+
+  margin-bottom: 6%;
+  cursor: pointer;
+  border: 1px #00e0ff;
+  transition: 0.2s ease-in-out;
+}
+
+main figure img:hover {
+  box-shadow: 0px 0px 8px #f44545;
+}
+
+main {
+  padding: 3%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main .main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+main .main-content h2 {
+  margin-bottom: 1%;
+  font-size: 1.9em;
+}
+
+main .main-content .text {
+  margin-bottom: 4%;
+}
+
+main .main-content .text p {
+  width: 80%;
+  font-size: 1em;
+  font-weight: 300;
+  line-height: 1.6;
+}
+
+/* Cara QAnon*/
+
+main .Icone .cards-container {
+  display: flex;
+  align-items: center;
+}
+
+main .Icone .cards-container .card {
+  margin-top: 1.5%;
+  width: 80px;
+  height: 80px;
+  padding: 1px;
+  background-color: #eee;
+  border-radius: 100px;
+  margin-right: 0.6em;
+  margin-left: 0.6em;
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: box-shadow 0.25s ease-in-out;
+}
+
+main .Icone .cards-container .card img {
+  width: 80%;
+}
+
+main .Icone .cards-container .card:hover {
+  box-shadow: 0px 0px 10px #f44545;
+}
+
+main .pag2 {
+  display: flex;
+  flex-direction: column;
+}
+
+main .pag2 h2 {
+  margin-bottom: 1%;
+  font-size: 1.9em;
+}
+
+main .pag2 .text1 {
+  margin-bottom: 1%;
+}
+
+main .pag2 .text1 p {
+  width: 100%;
+  font-size: 1em;
+  font-weight: 200;
+  line-height: 1;
+}
